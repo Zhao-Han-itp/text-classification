@@ -1,0 +1,4 @@
+#vocab_size:字典大小
+#embedding_dim:本层的输出大小，也就是生成的embedding的维数
+#input_length:输入数据的维数，因为输入数据会做padding处理，所以一般是定义的max_length
+keras.layers.Embedding(vocab_size, embedding_dim, input_length = max_length)
